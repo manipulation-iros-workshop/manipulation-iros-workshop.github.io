@@ -16,18 +16,16 @@
             <!-- Set background for slide in css -->
             <div
             class="header-back"
-            @media only screen and (min-width: 768px) {
+            @media screen and (max-width: 767px) {
             style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});"
             }
-            @media (min-width: 768px) {
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+            @media screen and (max-width: 1200px) {
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners_2[0].src }});"
             }
-
             title="{{ site.data.index.banners[0].title }}">
             </div>
         </div>
 
-        {% for banner in site.data.index.banners offset:1 %}
         <div class="item">
             <div class="container">
                 <div class="carousel-caption">
@@ -37,9 +35,12 @@
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});" title="{{ banner.title }}"></div>
+            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{
+                @media screen and (max-width: 10px) {
+                    site.data.index.banners[0].src }}}; @media screen and (max-width: 1200px) {
+                        site.data.index.banners_2[0].src }});" title="{{ site.data.index.banners[0].title }}"
+            </div>
         </div>
-        {% endfor %}
 
     </div>
 
