@@ -2,5 +2,12 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
+@media only screen and (min-width: 1170px) {
 - src: landing/header_one.jpg
   title: first banner image
+}
+
+@media only screen and (min-width: 768px) {
+- src: landing/header_two.jpg
+  title: first banner image
+}
