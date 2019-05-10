@@ -38,11 +38,13 @@
   if (testExp.test(navigator.userAgent))
   {
        document.getElementById("device").innerHTML =
+       		"";
 			document.getElementById("banner").style.cssText  = "background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.mobile_banners[0].src }});"
   }
   else
   {
        document.getElementById("banner").innerHTML =
+       		"";
 						document.getElementById("banner").style.cssText  = "background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});"
   }
 
