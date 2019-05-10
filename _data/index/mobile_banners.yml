@@ -2,5 +2,5 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/mobile_header.jpg
+- src: landing/mobile_header.png
   title: first banner image
