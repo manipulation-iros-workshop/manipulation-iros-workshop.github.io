@@ -155,15 +155,15 @@ h3, h4, h5 {
 }
 
 .navbar-default .landing_link a {
-  background: #3385FF;
+  background: #6fb6fe;
   color: #fff;
   &:hover {
-    background: #3385FF !important;
+    background: #6fb6fe !important;
     color: #fff;
   }
   span.label {
     background: #fff;
-    color: #3385FF;
+    color: #6fb6fe;
   }
 }
 
@@ -224,19 +224,19 @@ body.canvas-menu .nav-header {
   .nav > li {
     > a {
       padding: 15px 20px;
-      color: #676a6c;
+      color: #6fb6fe;
     }
     a {
       &:focus, &:hover {
         background: #fff;
-        color: #3385FF;
+        color: #6fb6fe;
       }
     }
     &.active {
       background: #fff;
       border: none;
       > a {
-        color: #3385FF;
+        color: #6fb6fe;
       }
     }
   }
@@ -258,7 +258,7 @@ body.canvas-menu .nav-header {
 }
 
 .top-navigation .navbar-brand {
-  background: #3385FF;
+  background: #6fb6fe;
   color: #fff;
   padding: 15px 25px;
 }
@@ -307,7 +307,7 @@ body.canvas-menu .nav-header {
 }
 
 .navbar-toggle {
-  background-color: #3385FF;
+  background-color: #6fb6fe;
   color: #fff;
   padding: 6px 12px;
   font-size: 14px;
@@ -371,8 +371,8 @@ button.dim {
 }
 
 .btn-primary {
-  background-color: #3385FF;
-  border-color: #3385FF;
+  background-color: #6fb6fe;
+  border-color: #6fb6fe;
   color: #FFF;
   &.active {
     background-color: #0073B1;
@@ -762,7 +762,7 @@ button.dim:active:before {
 }
 
 .label-primary {
-  background-color: #3385FF;
+  background-color: #6fb6fe;
   color: #FFF;
 }
 
@@ -869,7 +869,7 @@ button.dim:active:before {
 }
 
 .has-success .form-control {
-  border-color: #3385FF;
+  border-color: #6fb6fe;
 }
 
 .has-warning .form-control {
@@ -1145,7 +1145,7 @@ label.error {
 }
 
 .vertical-date small {
-  color: #3385FF;
+  color: #6fb6fe;
   font-weight: 400;
 }
 
