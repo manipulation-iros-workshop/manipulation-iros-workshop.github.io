@@ -1,3 +1,26 @@
+<style type="text/css">
+  .mobileShow { display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+      .mobileShow {display: inline;}
+  }
+</style>
+
+<style type="text/css">
+  .mobileHide { display: inline; }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
+</style>
+
+
 <div class="container" id="i18_link">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
@@ -8,35 +31,65 @@
 
 
 <div id="mainDiv" align="center" style= "margin-left:auto; margin-right:auto;">
-    <div id="mainDiv0" style= "margin-left:10px; margin-right:10px;  float: left; align: center">
+    <div class="mobileHide" id="mainDiv0" style= "margin-left:10px; margin-right:10px;  float: left; align: center">
+        <img src="https://github.com/giuliavezzani.png" alt="" width="200" height="200" />
+        </br>
+        <p style= "text-align: center; max-width: 200px">Giulia Vezzani</br> Istituto Italiano di Tecnologia (IIT), Genoa, Italy.</p>
+    </div>
+
+    <div  class="mobileShow" id="mainDiv0" style= "margin-left:10px; margin-right:10px;  float: left; align: center">
         <img src="https://github.com/giuliavezzani.png" alt="" width="200" height="200" />
         </br>
         <p style= "text-align: center; max-width: 350px">Giulia Vezzani</br> Istituto Italiano di Tecnologia (IIT), Genoa, Italy.</p>
     </div>
 
-    <div id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    <div class="mobileHide" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
     		<img style= "text-align: center;" src="https://github.com/lornat75.png" alt="" width="200" height="200" />
     		</br>
     		<p style= "text-align: center; max-width: 200px"> Lorenzo Natale</br> Istituto Italiano di Tecnologia (IIT), Genoa, Italy. </p>
     </div>
 
-    <div id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    <div class="mobileShow" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    		<img style= "text-align: center;" src="https://github.com/lornat75.png" alt="" width="200" height="200" />
+    		</br>
+    		<p style= "text-align: center; max-width: 350px"> Lorenzo Natale</br> Istituto Italiano di Tecnologia (IIT), Genoa, Italy. </p>
+    </div>
+
+    <div class="mobileHide" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
     		<img style= "text-align: center;" src="https://www.roboticvision.org/wp-content/uploads/Valerio-Ortenzi-225x275-c-default.jpg" alt="" width="180" height="200" />
     		</br>
     		<p style= "text-align: center; max-width: 200px"> Valerio Ortenzi</br> University of Birmingham, UK. </p>
     </div>
 
+    <div class="mobileShow" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    		<img style= "text-align: center;" src="https://www.roboticvision.org/wp-content/uploads/Valerio-Ortenzi-225x275-c-default.jpg" alt="" width="180" height="200" />
+    		</br>
+    		<p style= "text-align: center; max-width: 350px"> Valerio Ortenzi</br> University of Birmingham, UK. </p>
+    </div>
 
-    <div id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+
+    <div class="mobileHide" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
     		<img style= "text-align: center;" src="http://h2t.anthropomatik.kit.edu/img/tamim.asfour.JPG" alt="" width="180" height="200" />
     		</br>
     		<p style= "text-align: center; max-width: 200px"> Tamim Asfour </br> Karlsruhe Institute of technology (KIT). </p>
     </div>
 
-    <div id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    <div class="mobileShow" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    		<img style= "text-align: center;" src="http://h2t.anthropomatik.kit.edu/img/tamim.asfour.JPG" alt="" width="180" height="200" />
+    		</br>
+    		<p style= "text-align: center; max-width: 350px"> Tamim Asfour </br> Karlsruhe Institute of technology (KIT). </p>
+    </div>
+
+    <div class="mobileHide" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
     		<img style= "text-align: center;" src="http://petercorke.com/wordpress/wp-content/uploads/2016/09/Peter-with-icecreams-281x300.jpg" alt="" width="200" height="200" />
     		</br>
     		<p style= "text-align: center; max-width: 200px"> Peter Corke </br> Queensland University of Technology (QUT). </p>
+    </div>
+
+    <div class="mobileShow" id="mainDiv1"  style= "margin-left:10px; margin-right:10px;  float: left;">
+    		<img style= "text-align: center;" src="http://petercorke.com/wordpress/wp-content/uploads/2016/09/Peter-with-icecreams-281x300.jpg" alt="" width="200" height="200" />
+    		</br>
+    		<p style= "text-align: center; max-width: 350px"> Peter Corke </br> Queensland University of Technology (QUT). </p>
     </div>
 
 </div>
