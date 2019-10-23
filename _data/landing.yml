@@ -17,13 +17,13 @@
   i18n: nav.invited
   name: Invited Speakers
   tpl: invited.html
-  css: 
+  css:
 
 - id: contribute
   i18n: nav.contribute
-  name: Call for Papers
+  name: Selected Contributions
   tpl: contribute.html
-  css: 
+  css:
 
 - id: organizers
   i18n: nav.organizers
