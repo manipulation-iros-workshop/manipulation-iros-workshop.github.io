@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Different Approaches, the Same Goal: Autonomout Object Manipulation"
+title: "Different Approaches, the Same Goal: Autonomous Object Manipulation"
 description:  IROS 2019 Workshop on Autonomous Manipulation.
 keywords: manipulation, IROS 2019, workshop
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
